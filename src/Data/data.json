@@ -1,0 +1,75 @@
+
+{
+    "android":
+    {
+        "title":"Android App",
+        "about":"Design thinking approach to maximize ROT"
+    },
+    "iosapp":
+    {
+        "title":"iOS App",
+        "about":"Drive superior app performance across iOS and Android platforms"
+    },
+    "reactnativeapp":
+    {
+        "title":"iOS App",
+        "about":"Leverage our Xamarin Cross Platform Developent Expertise to reduce time-to-market"
+    },
+    "websitewevelopment":
+    {
+        "title":"Website Development",
+        "about":"Drive seamless and fast user experience in remote areas"
+    },
+    "ui":
+    {
+        "title":"UI/UX",
+        "about":"Front end development, backend development and intergration"
+    },
+    "digitalmarketing":
+    {
+        "title":"Digital Marketing",
+        "about":"Leverage digital technologies such as AI/ML, IoT, cloud and analytics"
+    },
+    
+    "ios":{
+        "title":"iOS Developer",
+        "about":"If you're looking for a dedicated iOS app developer who can bring your ideas to life, look no further. Contact US today to learn more about our services."
+    },
+    "php":{
+        "title":"PHP Developer",
+        "about":"Dedicated PHP app developer with expertise in designing and developing custom web applications for businesses and organizations of all sizes. Click here to know more…"
+    },
+    "node":{
+        "title":"NodeJs Developer",
+        "about":"Dedicated Node JS developer specializing in building custom web applications using Node.js that are optimized for performance, scalability, and security. Click here to know more…"
+        
+    },
+    "magneto":{
+        "title":"Magneto 2 Developer",
+        "about":"Our Dedicated Magento 2 Developer can help you build custom Magento 2 extensions that add new features and functionality to your e-commerce website. To know more click here…"
+    },
+    "wordprees":{
+        "title":"WordPress Developer",
+        "about":"Whether you need a simple blog or a complex corporate website our dedicated WordPress developer can help you create a beautiful, fast, and secure website. Click for more details…"
+    },
+    "angular":{
+        "title":"Angular Developer",
+        "about":"Our dedicated AngularJS developers are experts in creating custom solutions that meet your specific requirements. Our team of experienced developers is well-versed in using AngularJS to create customized web solutions tailored to your unique business needs. Click here for more details.."
+    },
+    "reactjs":{
+        "title":"ReactJs Developer",
+        "about":"Our dedicated ReactJS developers have expertise in building scalable and high-performing web applications using the latest ReactJS features and best practices. Click here for more details…"
+    },
+    "reactnative":{
+        "title":"React Native Developer",
+        "about":"If you're looking for a dedicated React Native developer to help you bring your mobile app to life, We would be happy to discuss your project further. Let's chat and see if we're a good fit!"
+    },
+    "flutter":{
+        "title":"Flutter Developer",
+        "about":"We provide you with dedicated Flutter Developers who are well-equipped to provide you with high-quality mobile app development services. We would be happy to discuss your project further. Click here for more details."
+    },
+    "androiddev":{
+        "title":"Android Developer",
+        "about":"Our skilled experienced and dedicated Android app developer with expertise in designing and developing native Android applications for a variety of businesses and industries. Our developer can help you to deliver a high-quality and engaging user experience."
+    }
+}

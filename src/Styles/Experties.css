@@ -1,0 +1,113 @@
+.left-content h2{
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 18px;
+}
+.left-content p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.experties-section{
+    padding-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+.forth{
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+.first li:last-child{
+    border-right:  none;
+    border-bottom:  solid 2px #DFDFDF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second li:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  solid 2px #DFDFDF;
+}
+.second li:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right:  none;
+    border-bottom:  solid 2px #DFDFDF;
+}
+.third li:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  solid 2px #DFDFDF;
+}
+.third li:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right:  none;
+    border-bottom:  solid 2px #DFDFDF;
+}
+
+.forth li:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right:  none;
+}
+.first li:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  solid 2px #DFDFDF;
+}
+
+.right-content ul{
+    list-style: none;
+    
+}
+.right-content ul li img{
+    width: 4rem;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.right-content ul li{
+    width: 50%;
+    padding: 40px 15px 40px 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-right: solid 2px #DFDFDF;
+}

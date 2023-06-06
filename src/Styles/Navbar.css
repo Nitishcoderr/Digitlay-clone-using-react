@@ -1,0 +1,62 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navcontainer{
+    height: 10vh;
+}
+.container img{
+    width: 200px;
+}
+.navbar-collapse .navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.homelogo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homelogo a svg{
+    width: 20px;
+}
+.nav-text li{
+    margin: 0 10px;
+}
+.nav-iink{
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #e87a3b;
+    border-bottom: 4px solid #e87a3b;
+}
+.dropdown-menu li a{
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.dropdown-menu li a:hover{
+    background-color: #e87a3b;
+    color: white;
+}
+.getin a{
+    background-color: #e87a3b;
+    font-size: 1vmax;
+    font-weight: 500;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getin a img{
+    width: 20px;
+    margin: 0 10px;
+}
+

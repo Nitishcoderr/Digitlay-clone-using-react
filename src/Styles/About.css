@@ -1,0 +1,122 @@
+.about-main-img{
+    height: 10vh;
+    background-image: url(../Assets/about-us-banner-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-main-img h1{
+     font-size: 3.5rem;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.about-upper{
+    position: relative;
+    padding: 2rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about-upper::after{
+    content: "";
+    position: absolute;
+    bottom:-3rem;
+    left: 0px;
+    right: 0px;
+    max-width: 725px;
+    height: 1.5px;
+    background-color: #ECECEC;
+    margin: auto;
+}
+.about-upper h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 5px;
+}
+.about-uppper p {
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* about all  */
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutmain{
+    
+    padding: 0 4rem;
+}
+
+
+.aboutfirst{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0 6px 6px 0;
+    padding: 25px 20px 25px 20px;
+}
+.aboutfirst h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+}
+.aboutfirst p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutfirst b{
+    line-height: 25px;
+}
+
+.aboutfirstimg img{
+    
+    width:80%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.aboutthird{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0 6px 6px 0;
+    padding: 25px 20px 25px 20px;
+}
+.aboutthird h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.aboutthird  p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}

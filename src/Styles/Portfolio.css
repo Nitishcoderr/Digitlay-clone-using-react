@@ -1,0 +1,50 @@
+.portfolio-mainitems{
+    padding: 80px 0;
+}
+.portfolio-bannner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Assets/port1.jpeg);
+    background-size: cover;
+
+
+}
+.portfolio-bannner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* button section */
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0px 0px 50px auto;
+}
+.btn-group-item.active{
+    color: #ffffff;
+    background-color: #e87a3b;
+}
+.btn-group button{
+    padding: 8px 30px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #e87a3b;
+    transition: 0.5s linear;
+    color: #e87a3b;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-group button:hover{
+    color: #e87a3b;
+    background-color: #ffffff;
+}
