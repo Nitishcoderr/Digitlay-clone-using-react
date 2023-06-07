@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import '../Styles/Portfolio.css'
-import Project from './portfolioApi'
+import Project from './portfolioApi.js'
 import PortfolioBtn from './PortfolioBtn'
 import PortfolioCard from './PortfolioCard'
 
