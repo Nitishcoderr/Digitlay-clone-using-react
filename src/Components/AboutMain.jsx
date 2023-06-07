@@ -14,7 +14,7 @@ const AboutMain = ({mainabout}) => {
         <h5 className="card-title">Choose Digitlay - The Best App Development Company <br/> in India</h5>
         <span>Collaborate with Digitlay to grow your digital footprint across all platforms</span>
         <p className="card-text">Digitlay has multiple years of experience in the field of app development and has helped hundred of clients to make their mark on various digital platforms. Our team specializes in creating unique solutions which will meet all your long term business goals and objectives.</p>
-       <a href="">Explore Now</a>
+       <a href="/Explore">Explore Now</a>
       </div>
     </div>
     <div className="col-md-4 aboutmainimg">
