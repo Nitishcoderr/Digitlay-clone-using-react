@@ -22,7 +22,7 @@ const Hiring = ({data}) => {
               <div className="container g-5">
                 <div className="row">
                   {/* cards */}
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -49,7 +49,7 @@ const Hiring = ({data}) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -77,7 +77,7 @@ const Hiring = ({data}) => {
                     </div>
                   </div>
 
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -116,7 +116,7 @@ const Hiring = ({data}) => {
               <div className="container">
                 <div className="row">
                   {/* cards */}
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -143,7 +143,7 @@ const Hiring = ({data}) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -170,7 +170,7 @@ const Hiring = ({data}) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -209,7 +209,7 @@ const Hiring = ({data}) => {
               <div className="container">
                 <div className="row">
                   {/* cards */}
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -236,7 +236,7 @@ const Hiring = ({data}) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
@@ -263,7 +263,7 @@ const Hiring = ({data}) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                  <div className=" my-2 col-12 col-lg-4 d-flex align-items-center justify-content-center">
                     <div className="d-flex justify-content-center align-items-center">
                       <div
                         className="card p-2 d-flex justify-content-center align-items-center"
