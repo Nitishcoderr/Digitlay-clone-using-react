@@ -26,6 +26,9 @@
     margin: 1rem 0.5rem;
     width: 45%;
 }
+.card-body{
+    text-align: -webkit-match-parent;
+}
 .card-body h2{
     font-size: 24px;
     font-weight: 600;
@@ -35,14 +38,20 @@
 .card-body p{
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
 }
 .cardImg img{
-    width: 5rem;
-    background-color: #5ca1fe;
+    width: 70%;
     border-radius: 100%;
 }
 .row{
     display: flex;
     align-items: center;
 }
+
+@media only screen and (max-width: 696px) {
+    .cardsec{
+      font-size: 24px;
+      width: 70%;
+    }
+    
+  }

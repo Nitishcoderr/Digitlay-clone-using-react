@@ -1,0 +1,131 @@
+.contact-bannner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Assets/contact-banner.png);
+    background-size: cover;
+
+
+}
+.contact-bannner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contact-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.contact-left{
+    width: 48%;
+    background-color: #EFF0F3;
+    padding-top: 2rem;
+
+}
+.contact-left h2{
+    font-size: 41px;
+    line-height: 600;
+    line-height: 49.62px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 11px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact-left p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+input {
+    font-size: 12px;
+    font-weight: bolder;
+    color: #000000;
+    padding: 8px 15px;
+    height: 41px;
+    outline: none;
+    border: none;
+    background-color:#ffffff;
+    border-color: #e87a3b;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.contact-submit-btn button{
+    background-color: #e87a3b ;
+    border-color: #e87a3b;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 10px 2rem;
+    width: auto;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-submit-btn button:hover{
+    background-color: #EFF0F3;
+    color: #e87a3b;
+    border: 1px solid #e87a3b;
+}
+
+
+.contact-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-right-img img{
+    width:100%;
+}
+.right-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contact-address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-address img{
+
+    border: 0.5px solid #e87a3b;
+    border-radius: 100%;
+    padding: 6px;
+}
+.contact-address p{
+    font-size: 14px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-main{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 696px) {
+    .contact-left{
+        width: 100%;
+        padding: 2rem;
+    }
+    
+  }

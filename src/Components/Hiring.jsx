@@ -38,13 +38,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.ios.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -71,13 +65,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.php.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -105,13 +93,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.node.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -150,13 +132,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.magneto.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -183,13 +159,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.wordprees.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -216,13 +186,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.angular.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -261,13 +225,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.reactjs.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -294,13 +252,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll">
                             {data.reactnative.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -327,13 +279,7 @@ const Hiring = ({data}) => {
                           <p className="card-text scrollbar overflow-y-scroll ">
                             {data.flutter.about}
                           </p>
-                          <div className="m-2">
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                            <i className="fa-sharp fa-solid fa-star"></i>
-                          </div>
+                          
                         </div>
                           
                           <button
@@ -352,19 +298,19 @@ const Hiring = ({data}) => {
 
           </div>
           <button
-            className="carousel-control-prev"
+            className="carousel-control-prev crauselbtn"
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
-            <button className="previcon"> &lt; </button>
+            <span className="previcon"> <i className="fa-solid fa-less-than"></i> </span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button
-            className="carousel-control-next"
+            className="carousel-control-next crauselbtn"
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
-            <button className="nexticon" aria-hidden="true">&gt;</button>
+            <span className="nexticon" aria-hidden="true"><i className="fa-solid fa-greater-than"></i></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>

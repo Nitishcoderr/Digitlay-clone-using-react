@@ -3,9 +3,7 @@ header{
     top: 0;
     z-index: 10;
 }
-.navcontainer{
-    height: 10vh;
-}
+
 .container img{
     width: 200px;
 }
@@ -26,10 +24,13 @@ header{
 .nav-text li{
     margin: 0 10px;
 }
-.nav-iink{
+.nav-link{
     font-size: 14px;
     font-weight: 600;
+    transition: 0.2s;
+
 }
+
 .nav-link:hover{
     color: #e87a3b;
     border-bottom: 4px solid #e87a3b;
@@ -60,3 +61,13 @@ header{
     margin: 0 10px;
 }
 
+/* ------------------------------------- */
+
+@media only screen and (max-width: 992px) {
+    .getin a {
+      display: none;
+    }
+    .navbar > .container{
+        justify-content: space-around;
+    }
+  }

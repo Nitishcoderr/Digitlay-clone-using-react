@@ -72,7 +72,7 @@
 .card-body-content{
     background-color: #EFEFEF;
 }
-.card-body p{
+.card-body-content p{
     overflow-y: scroll;
     overflow: hidden;
     height: 20vh;
@@ -95,25 +95,28 @@
     top: 50%;
     left: -51px;
     margin-top: -22px;
-    background-color: #EFEFEF;
+    background-color: rgb(104, 86, 80);
     width: 41px;
     height: 41px;
     border-radius: 100%;
     outline: none;
 
 }
+.crauselbtn > span{
+    padding-top: 8px;
+}
 .previcon:hover{
     background-color:  #e87a3b;;
     color: black;
 
 }
-.nexticon{
+ .nexticon{
     border: none;
     position: absolute;
     top: 50%;
     right: -51px;
     margin-top: -22px;
-    background-color: #EFEFEF;
+    background-color: rgb(104, 86, 80);
     width: 41px;
     height: 41px;
     border-radius: 100%;
@@ -121,7 +124,7 @@
 
 }
 .nexticon:hover{
-    background-color:  #e87a3b;;
+    background-color: #e87a3b;;
     color: black;
 
 }

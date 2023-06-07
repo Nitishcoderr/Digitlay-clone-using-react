@@ -11,7 +11,7 @@ import html from '../Assets/asset 22.png'
 
 const Experties = () => {
   return (
-    <section className='experties-section container'>
+    <section className='experties-section'>
       <div className="left col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
         <div className="left-content">
             <h2>Technology Expertise</h2>

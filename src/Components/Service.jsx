@@ -7,7 +7,7 @@ const Service = ({data}) => {
     <>
     <section className='service-section p-5' style={{backgroundColor:"#E5F0FD"}}>
         <div className='header'>
-        <div class="service-header pb-md-4 mx-auto text-center">
+        <div className="service-header pb-md-4 mx-auto text-center">
       <h2>Our Services</h2>
       <p>At Digitlay, we thrive -on delivering quality and suitable solutions that <br />
       meet your business requirements.</p>

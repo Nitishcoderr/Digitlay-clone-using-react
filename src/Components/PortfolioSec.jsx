@@ -10,12 +10,11 @@ const uniqueList = [...new Set(
     })
 ),'All',
 ]
-console.log(uniqueList);
 
-const Portfolio = () => {
+const PortfolioSec = () => {
 
     const [projectData, setProjectData] = useState(Project)
-
+// eslint-disable-next-line
     const [projectList, setProjectList] = useState(uniqueList)
 
     const filterItem = (category) =>{
@@ -43,4 +42,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default PortfolioSec

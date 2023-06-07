@@ -14,7 +14,7 @@
 
 
 .experties-section{
-    padding-right: 4rem;
+    padding: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,3 +111,23 @@
     font-weight: 600;
     border-right: solid 2px #DFDFDF;
 }
+
+
+/* ------------------------------------ */
+@media only screen and (max-width: 992px) {
+    .experties-section {
+       flex-direction: column;
+       padding: 0.5rem;
+    }
+    .experties-section{
+        align-items: center;
+    }
+    
+  }
+
+  @media only screen and (max-width: 696px) {
+    .left-content h2{
+      font-size: 24px;
+    }
+    
+  }

@@ -1,7 +1,7 @@
 const Project = [
     {
       id: 1,
-      image: require("../../public/Image/port2.jpeg"),
+      image: require("../Assets/port2.jpeg"),
       name: "Angular",
       category: "Web Application",
     },

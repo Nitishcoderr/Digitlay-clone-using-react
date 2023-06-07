@@ -11,86 +11,86 @@ import '../Styles/ServiceCard.css'
 const ServiceCard = ({data}) => {
   return (
     <>
-      <div className="container main-container">
-      <div class="cardsec">
-  <div class="row">
-    <div class="col-md-4 cardImg">
+      <div className="main-container">
+      <div className="cardsec">
+  <div className="row">
+    <div className="col-md-4 cardImg">
       <img src={androidimg} alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h2 class="card-title">{data.android.title}</h2>
-        <p class="card-text">{data.android.about}</p>
+    <div className="col-md-8">
+      <div className="card-body">
+        <h2 className="card-title">{data.android.title}</h2>
+        <p className="card-text">{data.android.about}</p>
       </div>
     </div>
   </div>
 </div>
         
-        <div class="cardsec">
-  <div class="row">
-    <div class="col-md-4 cardImg">
+        <div className="cardsec">
+  <div className="row">
+    <div className="col-md-4 cardImg">
       <img src={appleimg} alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-      <h2 class="card-title">{data.iosapp.title}</h2>
-        <p class="card-text">{data.iosapp.about}</p>
+    <div className="col-md-8">
+      <div className="card-body">
+      <h2 className="card-title">{data.iosapp.title}</h2>
+        <p className="card-text">{data.iosapp.about}</p>
       </div>
     </div>
   </div>
 </div>
         
-        <div class="cardsec">
-  <div class="row">
-    <div class="col-md-4 cardImg">
+        <div className="cardsec">
+  <div className="row">
+    <div className="col-md-4 cardImg">
       <img src={reactimg} alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-      <h2 class="card-title">{data.reactnativeapp.title}</h2>
-        <p class="card-text">{data.reactnativeapp.about}</p>
+    <div className="col-md-8">
+      <div className="card-body">
+      <h2 className="card-title">{data.reactnativeapp.title}</h2>
+        <p className="card-text">{data.reactnativeapp.about}</p>
       </div>
     </div>
   </div>
 </div>
         
-        <div class="cardsec">
-  <div class="row">
-    <div class="col-md-4 cardImg">
+        <div className="cardsec">
+  <div className="row">
+    <div className="col-md-4 cardImg">
       <img src={websiteimg} alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-      <h2 class="card-title">{data.websitewevelopment.title}</h2>
-        <p class="card-text">{data.websitewevelopment.about}</p>
+    <div className="col-md-8">
+      <div className="card-body">
+      <h2 className="card-title">{data.websitewevelopment.title}</h2>
+        <p className="card-text">{data.websitewevelopment.about}</p>
       </div>
     </div>
   </div>
 </div>
         
-        <div class="cardsec">
-  <div class="row">
-    <div class="col-md-4 cardImg">
+        <div className="cardsec">
+  <div className="row">
+    <div className="col-md-4 cardImg">
       <img src={uiux} alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-      <h2 class="card-title">{data.ui.title}</h2>
-        <p class="card-text">{data.ui.about}</p>
+    <div className="col-md-8">
+      <div className="card-body">
+      <h2 className="card-title">{data.ui.title}</h2>
+        <p className="card-text">{data.ui.about}</p>
       </div>
     </div>
   </div>
 </div>
         
-        <div class="cardsec">
-  <div class="row">
-    <div class="col-md-4 cardImg">
+        <div className="cardsec">
+  <div className="row">
+    <div className="col-md-4 cardImg">
       <img src={digitalimg} alt="..."/>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-      <h2 class="card-title">{data.digitalmarketing.title}</h2>
-        <p class="card-text">{data.digitalmarketing.about}</p>
+    <div className="col-md-8">
+      <div className="card-body">
+      <h2 className="card-title">{data.digitalmarketing.title}</h2>
+        <p className="card-text">{data.digitalmarketing.about}</p>
       </div>
     </div>
   </div>
