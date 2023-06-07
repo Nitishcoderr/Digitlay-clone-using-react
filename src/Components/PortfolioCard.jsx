@@ -1,16 +1,17 @@
 import React from 'react'
+import '../Styles/Portfolio.css'
 
 const PortfolioCard = ({projectData}) => {
   return (
     <>
 
-     <section className="card-container">
+     <section className="card-section">
         {
             projectData.map((curElem)=>{
                 const {id,image} = curElem;
                 return (
                     <div key={id} className="card">
-                    <img src={image.default} className="card-img-top" alt="img"/>
+                    <img src={image} className="card-img-top" alt="img"/>
                     </div>
                 )
             })

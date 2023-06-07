@@ -48,3 +48,27 @@
     color: #e87a3b;
     background-color: #ffffff;
 }
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card-section .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 1rem;
+}
+.card-section .card img{
+    padding: 0.5rem;
+    width: 100%;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.card-section .card img:hover{
+    transform: scale(1.1);
+}
