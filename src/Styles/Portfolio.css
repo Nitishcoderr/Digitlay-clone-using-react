@@ -64,14 +64,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #e6e2dfd1;
+    /* background-color:  #e87a3b; */
+    background-image: linear-gradient(214deg, rgb(232,122,59),rgba(252,156,51, 0.82));
+    color: white;
 }
 
 .pro-card .project-about{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     margin: 1rem 0;
 }
 .card-section{
@@ -79,15 +81,16 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* flex-direction: row; */
+    flex-direction: row;
+    padding: 0.5rem;
 }
 .card-section .pro-card{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 40%;
     border-radius: 10px;
-    margin: 1rem 0;
+    margin: 0.5rem 0.5rem;
 }
 .card-section .pro-card img{
     width: 100%;
@@ -111,7 +114,7 @@
         margin: 1rem 0;
     }
     .card-section .pro-card{
-        width: 90%;
+        width: 100%;
     }
     .pro-card .project-about{
         font-size: 14px;

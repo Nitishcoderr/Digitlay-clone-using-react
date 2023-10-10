@@ -13,11 +13,11 @@ const PortfolioCard = ({projectData}) => {
             projectData.map((curElem)=>{
                 const {id,image,about} = curElem;
                 return (
-                    <div data-aos="flip-up"
+                    <div data-aos="zoom-in"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="3000" key={id} className="pro-card">
-                      <p className='project-about'>{about}</p>
                     <img  src={image} className="card-img-top" alt="img"/>
+                      <p className='project-about'>{about}</p>
                     </div>
                 )
             })
