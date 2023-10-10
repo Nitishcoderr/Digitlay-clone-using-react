@@ -35,6 +35,7 @@ const PortfolioSec = () => {
             <h1>Portfolio</h1>
         </div>
             <div className='portfolio-mainitems'>
+                <p>Get a sight of all the custom web & mobile applications we have successfully delivered using disruptive technologies to solve challenging problems.</p>
         <PortfolioBtn filterItem={filterItem} projectList={projectList}/>
         <PortfolioCard projectData={projectData}/>
         </div>
